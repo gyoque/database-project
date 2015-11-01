@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+
+\title{Project 3}
+\author{Imanuel Chen, Anna Dovzhik, Gaby Yoque}
+\date{November 2015}
+
+\begin{document}
+
+\maketitle
+
+\section{Use Cases}
+\begin{enumerate}
+
+\item Users and administrators can login to our system with a username and password, which are both encrypted in the database. By default, the site automatically logs the user out after an hour of inactivity. 
+
+\item Users can search for available rentals by reservation period (start time and end time) and by location, given a certain maximum radius. Results will sorted by distance to available vehicles.
+
+\item Search results of available vehicles can be filtered by different parameters, such as type of vehicle, seating capacity of vehicle, and price per hour.
+
+\item Users can reserve vehicles based on their search of available rentals by clicking a link called ''Reserve Now". If they are not already logged in, they will have to select ''Log into account" or ''Make new account". Once they are fully logged in, they will have to select their choice of payment method.
+
+\item Once all details of a rental reservation are submitted, our system will prompt the user with a confirmation message summarizing the details of the reservation. The user can either select ''submit" or ''cancel". Clicking cancel will bring the user back to the previous page, where they can adjust the parameters of their reservation.
+
+\item Within the page containing the user's account information, users can select to view their reservation history, which will produce a list of all past, present, and upcoming reservations made. Details of the reservations, such as time duration, vehicle type, location, total cost, and payment type will all be displayed for each reservation.
+
+\item Within the page containing the user's account information, users can update their contact information (phone, email, address) and current payment information.
+
+\item Within the page containing the user's account information, users can update their upcoming reservations by changing any detail (such as vehicle type, start and/or end time, location). If a change conflicts with any reservations already in the database, the user will be notified of which parameters are not compatible.
+
+\item An administrative user can delete, add, or update any user and any of the attributes in the system.
+
+\item An administrative user can delete, add, or update any vehicle in the system. All the attributes of a vehicle can be modified.
+
+\item An administrative user can delete, add, or update any reservation in the system.
+
+\item A user can view a page that lists all the types of vehicles offered by our company, along with all their specifications.
+
+\item When a user inputs their credit card information for a reservation, the credit card number and its expiration date will be encrypted into the database, and the user's balance on their account will reflect this payment charge.
+
+\item When a user's reservation is 24 hours away, the system will automatically email the user their reservation details as a reminder.
+
+
+
+\end{enumerate}
+
+\end{document}
