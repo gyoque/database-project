@@ -1,0 +1,10 @@
+insert into User values ('8317239', 'John', 'Smith','123-123-1234', 'jsmith@test.com', '1234 I St', 'OR', 98123, 'jsmith');
+insert into User values ('BROWNJ255DR ', 'Jane', 'Brown','253-123-4312', 'jbrown@mail.com', '1234 I St', 'WA', 94321, 'jbrown');
+insert into User values ('69KED76646', 'David', 'Smith', '345-644-3454','dsmith@email.com', '5432 N Cat Ave', 'NH', 32456, 'dsmith');
+insert into User values ('B6167567', 'Alice', 'Lopez', '594-321-3456', 'alopez@mail.com', '567 Kittens Loop', 'KS', 93432, 'alopez');
+insert into User values ('SPELLT959ZE', 'Taylor', 'Spells', '253-236-6546', 'tspells@test.com', '7854 N 23 St', 'WA', 98417, 'tspells');
+insert into User values ('J7891449', 'Rick', 'Peterson', '302-942-0012', 'rpeterson@email.com', '1003 S 52 Ave', 'CA', 95403, 'rpeterson');
+insert into User values ('575531227', 'Alice', 'Cole', '403-219-0493', 'acole@mail.com', '1132 Lassen St', 'HI', 75444, 'acole');
+insert into User values ('387709714', 'Jason', 'Nguyen', '506-434-3921', 'jnguyen@mail.com', '409 Lily St', 'CO', 20192, 'jnguyen');
+insert into User values ('387730714', 'Lauren', 'Norman', '506-432-2912', 'lnorman@zmail.com', '800 West Place', 'CO', 20193, 'lnorman');
+insert into User values ('838595338', 'Alex', 'Pointer', '302-232-1209', 'apointer@email.com', '900 S 52 Ave', 'CA', 95403, 'apointer');
